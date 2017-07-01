@@ -8,17 +8,12 @@ Dependencies:
 - A working connection to [fosbos.net](http://fosbos.net/)
 - [Simple HTML DOM Parser](http://simplehtmldom.sourceforge.net/) (included)
 
-
 ## How to import / sync
 
-##### Easy:
-This script is hosted on [dotwee.de/fos/calendar-export.php](https://goo.gl/Y285D2). Opening this page will download the calendar.csv file. Use this file to import all events it into Google Calendar or Microsoft Outlook by using their integrated import-function.
-
-##### Manually
 - Download and install the latest PHP version
-- Make sure the command **php** is accessible everywhere
+- Make sure the command **php** is accessible in your shell
 - Get the archive of this project by clicking on the "Download ZIP" button 
-- Unzip it somewhere and run the following command (This should work for Windows, Linux as well as Mac OS X):
+- Unzip it somewhere and run the following command within the directory (This should work for Windows, Linux as well as Mac OS X):
         
         php -f calendar-export.php > calendar.csv
 
